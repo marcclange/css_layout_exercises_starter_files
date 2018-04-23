@@ -10,3 +10,27 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+p {
+  font-size: 15px;
+}
+
+.right, .left {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.right {
+  float: right;
+  margin-left: 15px;
+}
+
+.left {
+  float: left;
+  margin-right: 15px;
+  clear: right;
+}
+
+.standard{
+  width: 250px;
+}
